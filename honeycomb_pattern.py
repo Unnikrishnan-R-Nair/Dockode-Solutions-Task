@@ -34,10 +34,10 @@ for i in range(row):
         for c in range(col):
             if c==0:
                 print(f' {" "*len(li[0])}', end="")
-                pass
+                
             elif c%2==0:
                 print(f"{" "*len(li[0])}", end="")
-                pass
+                
             elif c%2==1:
                 print(" "*5, end="")
         print()
@@ -59,10 +59,10 @@ for i in range(row):
         for c in range(col):
             if c==0:
                 print(f' {" "*len(li[0])}', end="")
-                pass
+                
             elif c%2==0:
                 print(f"{" "*len(li[0])}", end="")
-                pass
+                
             elif c%2==1:
                 print(" "*5, end="")
         print()
